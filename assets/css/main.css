@@ -234,4 +234,15 @@ body {
     height: 50px;
     width: 50px;
   }
-  
+
+  r {
+
+    border-bottom:2px solid #FF0000; 
+    
+    }
+    
+  z {
+
+    border-bottom:2px solid #0000ff; 
+      
+    }
