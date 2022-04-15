@@ -241,7 +241,7 @@ r {
 }
 
 .devlink {
-  color: #4bc529;
+  color: #4887e6;
 }
 
 z {
@@ -259,13 +259,17 @@ z {
 .tchatsection .title {
   padding: 0.2em;
   margin: 0.1em;
-  background-color: #22a622;
-  box-shadow: 6px 6px #047e94, 12px 12px #f64141;
+  background-color: #008000;
+  box-shadow: 4px 4px #040494, 8px 8px #a80000;
 }
 
 .tchat {
   height: 150px !important;
   width: 250px !important;
+}
+
+.tchatlink {
+  color: #33ff33;
 }
 
 /* <!-- Fin tchat" --> */
