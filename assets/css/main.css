@@ -240,7 +240,7 @@ r {
   border-bottom: 2px solid #ff0000;
 }
 
-.devlink {
+.tchatlink {
   color: #4887e6;
 }
 
@@ -268,13 +268,13 @@ z {
   width: 250px !important;
 }
 
-.tchatlink {
-  color: #33ff33;
-}
-
 /* <!-- Fin tchat" --> */
 
 .black {
   display: inline-block;
   background-color: #000000;
+}
+
+.greenlink {
+  color: #33ff33;
 }
