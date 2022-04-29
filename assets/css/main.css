@@ -118,13 +118,13 @@ main {
   position: absolute;
   bottom: 3rem;
   left: 50%;
-  border: solid #e3e9ee;
+  border: solid #41074B;
   border-width: 0 0.25rem 0.25rem 0;
   display: inline-block;
   padding: 1rem;
   -webkit-transform: rotate(45deg);
   opacity: 0;
-  animation: arrow-up-down 1s infinite, arrow-appear 1s 5s forwards;
+  animation: arrow-up-down 2s infinite, arrow-appear 2s 6s forwards;
 }
 
 
