@@ -108,9 +108,7 @@ main {
   }
 }
 
-
-
-
+/* <!-- Début arrow2 --> */
 .arrow2 {
   font-family: Poppins, sans-serif;
   color: #ebeff3;
@@ -126,8 +124,7 @@ main {
   opacity: 0;
   animation: arrow-up-down 2s infinite, arrow-appear 2s 6s forwards;
 }
-
-
+/* Fin arrow2 */
 
 section,
 marquee {
@@ -291,7 +288,7 @@ z {
   width: 250px !important;
 }
 
-/* <!-- Fin tchat" --> */
+/* <!-- Fin tchat --> */
 
 .greenlink {
   color: #17c417;
