@@ -113,12 +113,12 @@ main {
 
 .arrow2 {
   font-family: Poppins, sans-serif;
-  color: #41074B;
+  color: #ebeff3;
   text-align: center;
   position: absolute;
   bottom: 3rem;
   left: 50%;
-  border: solid #41074B;
+  border: solid #ebeff3;
   border-width: 0 0.25rem 0.25rem 0;
   display: inline-block;
   padding: 1rem;
