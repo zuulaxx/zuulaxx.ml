@@ -207,6 +207,62 @@
         <a href="https://www.tiktok.com/@zuulaxx.dev">TikTok</a>
         <a href="https://github.com/zuulaxx">Github</a>
         </div>
+        <br>
+        <br>
+      <!-- Demander mon rôle -->
+      button#generateNumber Générer un nombre
+span#screen 
+
+h3 Liste des valeurs générées
+  button#viderListe Vider la liste
+ul#listNumber
+<style>
+  #screen {
+  margin-left: .7rem;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+#viderListe {
+  height: 18pt;
+}
+</style>
+<scripte>
+        function random(min, max){
+    return Math.floor(Math.random() * (max - min) + min)
+}
+
+// on enregistre le bouton "générer un nombre"
+let generer = document.getElementById("generateNumber") 
+// on enregistre le bouton "vider la liste"
+let vider = document.getElementById("viderListe")
+// on enregistre la span #screen
+let ecran = document.getElementById("screen")
+// on enregistre la liste ul#listNumber
+let liste = document.getElementById("listNumber")
+
+// on créer un tableau pour enregistrer les valeurs déjà générées
+let table = []
+
+// lorsqu'on clique sur le bouton
+generer.addEventListener("click", function(){
+  let nbAlea = random(32, 512) // on génère le nombre
+  ecran.innerHTML = "J'ai généré le nombre " + nbAlea // on l'affiche à l'écran
+  table.push(nbAlea) // on le sauvegarde dans un tableau
+  
+  let newItem = document.createElement("li") // on créer un nouvel élément "li"
+  newItem.textContent = nbAlea // on met le nombre dedans
+  liste.appendChild(newItem) // on l'insert dans la liste
+})
+
+// lorsqu'on clique sur le bouton "vider la liste"
+vider.addEventListener("click", function() {
+  table = [] // on vide le tableau
+  liste.innerHTML = "" // on vide le contenu de la liste
+})
+</scripte>
       <!--Utiles-->
       <br>
       <br>
