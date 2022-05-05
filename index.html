@@ -229,40 +229,6 @@ h3 {
   height: 18pt;
 }
 </style>
-<script>
-        function random(min, max){
-    return Math.floor(Math.random() * (max - min) + min)
-}
-
-// on enregistre le bouton "générer un nombre"
-let generer = document.getElementById("generateNumber") 
-// on enregistre le bouton "vider la liste"
-let vider = document.getElementById("viderListe")
-// on enregistre la span #screen
-let ecran = document.getElementById("screen")
-// on enregistre la liste ul#listNumber
-let liste = document.getElementById("listNumber")
-
-// on créer un tableau pour enregistrer les valeurs déjà générées
-let table = []
-
-// lorsqu'on clique sur le bouton
-generer.addEventListener("click", function(){
-  let nbAlea = random(32, 512) // on génère le nombre
-  ecran.innerHTML = "J'ai généré le nombre " + nbAlea // on l'affiche à l'écran
-  table.push(nbAlea) // on le sauvegarde dans un tableau
-  
-  let newItem = document.createElement("li") // on créer un nouvel élément "li"
-  newItem.textContent = nbAlea // on met le nombre dedans
-  liste.appendChild(newItem) // on l'insert dans la liste
-})
-
-// lorsqu'on clique sur le bouton "vider la liste"
-vider.addEventListener("click", function() {
-  table = [] // on vide le tableau
-  liste.innerHTML = "" // on vide le contenu de la liste
-})
-</script>
       <!--Utiles-->
       <br>
       <br>
