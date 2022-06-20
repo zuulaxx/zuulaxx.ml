@@ -25,6 +25,7 @@
 </head>
 
 <body bgcolor="#FFFFFF">
+  <div onclick="incrementClick()">
   <!-- Début Animation "Bonjour" -->
   <section id="home-hello">
     <svg viewBox="-150 -20 563.7 112.001" xmlns="http://www.w3.org/2000/svg">
@@ -48,16 +49,6 @@
       </div>
     </section>
     <!-- Fin de couverture -->
-<h3><center>JavaScript Click Counter</center></h3>
-<div>
-    <center><h3 id="counter-label">0</h3></center>
-</div>
-<center>
-    <div>
-        <div onclick="incrementClick()">Click Me</div>
-        <button onclick="resetCounter()">Reset</button>
-    </div>
-</center>
 <script>
   var counterVal = 0;
 
@@ -73,6 +64,7 @@ function resetCounter() {
 function updateDisplay(val) {
     document.getElementById("counter-label").innerHTML = val;
 }
+  console.log(counterVal);
 </script>
     <!-- Début de hobbies -->
     <section id="hobbies" class="guiguisection">
@@ -254,6 +246,7 @@ function updateDisplay(val) {
     </footer>
     <!-- Fin de Salutations -->
   </main>
+  </div>
 </body>
 
 </html>
