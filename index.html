@@ -51,8 +51,11 @@
 <script>
   console.log("zuulaxx");
   confirm ("Aimez vous zuulaxx ?")
-  if (window.confirm("Do you really want to leave?")) {
-  window.open("/Error-404/404.html");
+  if (confirm === false) {
+    console.log("non");
+}
+  if (confirm === true) {
+    console.log("oui");
 }
   console.log("zuulaxx");
 </script>
