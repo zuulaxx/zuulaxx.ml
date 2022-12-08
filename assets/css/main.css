@@ -19,10 +19,12 @@ section#home-hello {
   height: 100%;
   animation: home-hello-compact 1s 5s forwards;
 }
+
 section#home-hello > svg {
   width: 100%;
   height: 100%;
 }
+
 section#home-hello > svg > g.hello-text > path {
   fill: transparent;
   stroke: transparent;
@@ -31,6 +33,7 @@ section#home-hello > svg > g.hello-text > path {
   stroke-dashoffset: 2000;
   animation: hello-animate 5s forwards;
 }
+
 section#home-hello > div.arrow {
   position: absolute;
   bottom: 3rem;
@@ -51,58 +54,71 @@ main {
   overflow: hidden;
   animation: display-sections 0s 5s forwards;
 }
+
 @keyframes display-sections {
   0% {
     height: 0;
   }
+
   100% {
     height: unset;
   }
 }
+
 @keyframes home-hello-compact {
   0% {
     height: 100%;
   }
+
   100% {
     height: 75%;
   }
 }
+
 @keyframes hello-animate {
   0% {
     fill: transparent;
     stroke: #e3e9ee;
   }
+
   50% {
     fill: transparent;
     stroke: #e3e9ee;
     stroke-dashoffset: 0;
   }
+
   75% {
     fill: #e3e9ee;
     stroke-dashoffset: 0;
     filter: drop-shadow(0 0 10rem #e3e9eeff);
   }
+
   100% {
     fill: #e3e9eeee;
     stroke-dashoffset: 0;
     filter: drop-shadow(0 0 10rem #e3e9eeee);
   }
 }
+
 @keyframes arrow-up-down {
   0% {
     bottom: 3rem;
   }
+
   50% {
     bottom: 5rem;
   }
+
   100% {
     bottom: 3rem;
   }
 }
+
 @keyframes arrow-appear {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -124,6 +140,7 @@ main {
   opacity: 0;
   animation: arrow-up-down 2s infinite, arrow-appear 2s 6s forwards;
 }
+
 /* Fin arrow2 */
 
 section,
@@ -131,13 +148,16 @@ marquee {
   font-family: Poppins, sans-serif;
   color: #333;
 }
+
 section#presentation {
   padding: 3rem 0;
 }
+
 section#presentation > h1 {
   font-size: 2.5rem;
   text-align: center;
 }
+
 section#presentation > div.avatar {
   font-family: Poppins, sans-serif;
   font-size: 1.75rem;
@@ -145,11 +165,13 @@ section#presentation > div.avatar {
   justify-content: center;
   align-items: center;
 }
+
 section#presentation > div.avatar > img {
   width: 5rem;
   margin-right: 1rem;
   display: block;
 }
+
 .guiguisection {
   background: #ebeff3;
   color: #333;
@@ -158,23 +180,28 @@ section#presentation > div.avatar > img {
 section#hobbies {
   padding: 3rem 0;
 }
+
 section#hobbies > * {
   max-width: 1000px;
   display: block;
   margin: 0 auto;
   padding: 0 2rem;
 }
+
 section#hobbies h2 {
   font-size: 2rem;
 }
+
 section#hobbies div.hobby {
   display: flex;
   margin-top: 3rem;
   align-items: center;
 }
+
 section#hobbies div.hobby.inverted {
   flex-direction: row-reverse;
 }
+
 section#hobbies div.hobby > img {
   width: 8rem;
   height: 8rem;
@@ -185,10 +212,12 @@ section#hobbies div.hobby > img {
   display: block;
   margin-right: 2rem;
 }
+
 section#hobbies div.hobby.inverted > img {
   /* margin-left: 2rem; */
   margin-right: 0;
 }
+
 section#hobbies div.hobby > div {
   flex: 1;
   font-size: 1.5rem;
@@ -198,10 +227,12 @@ section#hobbies div.hobby > div {
   section#hobbies div.hobby > div {
     font-size: 1rem;
   }
+
   section#hobbies div.hobby,
   section#hobbies div.hobby.inverted {
     flex-direction: column;
   }
+
   section#hobbies div.hobby > img,
   section#hobbies div.hobby.inverted > img {
     margin-right: 0;
@@ -236,6 +267,7 @@ g {
   0% {
     background-position: -500%;
   }
+
   100% {
     background-position: 500%;
   }
