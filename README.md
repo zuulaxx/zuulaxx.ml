@@ -1,8 +1,11 @@
 # Hey! <br> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35px">
 
 ## Je suis zuulaxx ! :octocat:
------
+
+---
+
 # Bienvenue sur zuulaxx.ml
+
 Biographie officiel de zuulaxx (+portfolio) :bowtie:
 
 ![Avatar](assets/img/avatar.png)
@@ -13,14 +16,17 @@ Biographie officiel de zuulaxx (+portfolio) :bowtie:
 
 <br>
 <br>
-<strong>
-Pour plus d'infos rendez vous sur notre <u>*[Discord](https://discord.gg/aBsvuX9b2Q)*</u>
-</strong>
-<br>
-~~~~~
-~~~~~
+<u><strong>
 
------
+Pour plus d'infos rendez vous sur notre _[Discord](https://discord.gg/aBsvuX9b2Q)_
+
+</u></strong>
+
+```
+
+```
+
+---
 
 ### <p align="center">👀 &nbsp;Visiteurs</p>
 
@@ -32,8 +38,8 @@ Pour plus d'infos rendez vous sur notre <u>*[Discord](https://discord.gg/aBsvuX9
 
 </p>
 
------
+---
 
-If you want to see ***the result*** it's here : 
+If you want to see **_the result_** it's here :
 
-``💡 https://zuulaxx.ml/ ⎯⠀❐⠀⤬ ``
+`💡 https://zuulaxx.ml/ ⎯⠀❐⠀⤬ `
