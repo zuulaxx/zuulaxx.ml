@@ -2,20 +2,21 @@
 
 ## Je suis zuulaxx ! :octocat:
 -----
-<br>
-
 # Bienvenue sur zuulaxx.ml
 Biographie officiel de zuulaxx (+portfolio) :bowtie:
 
-![Avatar](Avatar.png)
+![Avatar](assets/img/avatar.png)
+<br>
 <br>
 
 **[W̸̢̧̘͈̤̰̙̩̖̱͎̺͔̣̦̔̔̎̍̒͂̃͛̉͒̀͆̎̓̏̕é̵̡̦̱̩͓̫̼̱̠̖͓̊̓b̶̧̢̢̪͙̮͈̞̦͙̙͈̝̭̘́͊̂͛s̵̳̩͉̲͚̾͋̏̕̚͜͝͝͝ȋ̵̘͍̝̞͙̙͍͍̦̳̜̥̇̑̿̒͝t̴̨̢̨̲͖̟̹̰̺͓̭̱̹͍̬͒̌̎̇̃̊̐͘̚͝͠ȩ̷̣̠̭̬͇̲̑̊̔̍̋͂͗̔͘͠ ](https://zuulaxx.ml)**
 
 <br>
+<br>
 <strong>
 Pour plus d'infos rendez vous sur notre <u>*[Discord](https://discord.gg/aBsvuX9b2Q)*</u>
 </strong>
+<br>
 ~~~~~
 ~~~~~
 
@@ -33,6 +34,6 @@ Pour plus d'infos rendez vous sur notre <u>*[Discord](https://discord.gg/aBsvuX9
 
 -----
 
-If you want a more detailed ***biography*** it's here : 
+If you want to see ***the result*** it's here : 
 
 ``💡 https://zuulaxx.ml/ ⎯⠀❐⠀⤬ ``
