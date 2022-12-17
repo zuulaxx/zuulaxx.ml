@@ -9,6 +9,20 @@ body {
   bottom: 0;
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(202, 202, 202);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(44, 44, 44);
+  border-radius: 20px;
+  border: 3px solid rgb(123, 6, 173);
+}
+
 section#home-hello {
   position: relative;
   background-color: #17191b;
@@ -125,7 +139,7 @@ main {
 }
 
 /* <!-- Début arrow2 --> */
-.arrow2 {
+/* .arrow2 {
   font-family: Poppins, sans-serif;
   color: #ebeff3;
   text-align: center;
@@ -139,8 +153,7 @@ main {
   -webkit-transform: rotate(45deg);
   opacity: 0;
   animation: arrow-up-down 2s infinite, arrow-appear 2s 6s forwards;
-}
-
+} */
 /* Fin arrow2 */
 
 section,
