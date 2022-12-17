@@ -18,7 +18,10 @@ Biographie officiel de zuulaxx (+portfolio) :bowtie:
 <br>
 <u><strong>
 
-Pour plus d'infos rendez vous sur notre _[Discord](https://discord.gg/aBsvuX9b2Q)_
+~~~~
+~~~~
+
+Pour plus d'infos rendez vous sur mon _[Discord](https://discord.gg/aBsvuX9b2Q)_
 
 </u></strong>
 
