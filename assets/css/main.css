@@ -163,12 +163,13 @@ marquee {
 }
 
 section#presentation {
-  padding: 3rem 0;
+  padding: 0.5rem;
 }
 
 section#presentation > h1 {
   font-size: 2.5rem;
   text-align: center;
+  margin: 0.5rem;
 }
 
 section#presentation > div.avatar {
@@ -180,8 +181,8 @@ section#presentation > div.avatar {
 }
 
 section#presentation > div.avatar > img {
-  width: 5rem;
-  margin-right: 1rem;
+  width: 6rem;
+  margin: 2rem;;
   display: block;
 }
 
