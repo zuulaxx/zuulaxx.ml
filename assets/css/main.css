@@ -315,7 +315,7 @@ z {
 
 /* Début tchat */
 .tchatsection {
-  background-color: #000000;
+  bbackground-color: rgb(36, 36, 36);
   padding: 0.2em;
   border-radius: 5px;
   color: #008000;
@@ -324,7 +324,7 @@ z {
 .tchatsection .title {
   padding: 0.2em;
   margin: 0.1em;
-  background-color: #008000;
+  background-color: rgb(36, 36, 36);
   box-shadow: 4px 4px #040494, 8px 8px #a80000;
   color: whitesmoke;
 }
