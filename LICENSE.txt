@@ -20,9 +20,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Merci à RsMan#1206 pour l'aide !
-
-Mon discord : zuulaxx#5028
-
-Copyright © [zuulaxx#5028] | 2022 | Tous droits réservés
-Participants : [RsMan#1206]
+Copyright © Zuulaxx | 2022 | Tous droits réservés
